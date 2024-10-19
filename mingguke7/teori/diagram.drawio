@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="xqN8IajybUt4D6MJp3Gs">
+    <mxGraphModel dx="1066" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" parent="1" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="MenuItem (Abstract Class)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="60" />
+        </mxCell>
+        <mxCell id="3" value="DapatDidiskon (Interface)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="160" height="60" />
+        </mxCell>
+        <mxCell id="4" value="Makanan (Class)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="160" height="80" />
+        </mxCell>
+        <mxCell id="5" value="Minuman (Class)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="160" height="80" />
+        </mxCell>
+        <mxCell id="6" value="Restaurant (Class)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="160" height="80" />
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" source="2" target="3" />
+        <mxCell id="8" edge="1" parent="1" source="2" target="4" />
+        <mxCell id="9" edge="1" parent="1" source="2" target="5" />
+        <mxCell id="10" edge="1" parent="1" source="3" target="4" />
+        <mxCell id="11" edge="1" parent="1" source="3" target="5" />
+        <mxCell id="12" edge="1" parent="1" source="4" target="6" />
+        <mxCell id="13" edge="1" parent="1" source="5" target="6" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="Nug-I3hBYV4TedV3mSXD">
+    <mxGraphModel dx="1588" dy="986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="%Class%" Class="Restaurant" Attributes="- menu: ArrayList&lt;MenuItem&gt;\n- pesanan: ArrayList&lt;MenuItem&gt;" Methods="+ Restaurant()\n+ tambahkanKeMenu(MenuItem)\n+ tampilkanMenu(): void\n+ tambahkanKePesanan(MenuItem): void\n+ hitungTotal(): double\n+ terapkanDiskonKePesanan(double): void\n+ tampilkanPesanan(): void" placeholders="1" id="q0ttuumSvNMeqppSOIBd-5">
+          <mxCell style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="340" y="57" width="80" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNL9x2fb8WNImuJIkfQr-1" target="q0ttuumSvNMeqppSOIBd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-1" value="MenuItem" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="120" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-2" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; nama: String&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; harga: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-1">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-3" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; MenuItem(String, &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;)&amp;nbsp;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; tampilkanInfo()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; getHarga(): &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; setHarga(&lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;)&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-1">
+          <mxGeometry y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNL9x2fb8WNImuJIkfQr-10" target="xNL9x2fb8WNImuJIkfQr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-10" value="Makanan" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="337" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-11" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; jenis: String&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-10">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-12" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; Makanan(String, &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;, String)&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; tampilkanInfo()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; terapkanDiskon(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-10">
+          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xNL9x2fb8WNImuJIkfQr-14" target="xNL9x2fb8WNImuJIkfQr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-31" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xNL9x2fb8WNImuJIkfQr-30">
+          <mxGeometry x="-0.7663" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-14" value="Minuman" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403" y="337" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-15" value="&lt;span class=&quot;hljs-operator&quot;&gt;-&lt;/span&gt; volume: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-14">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-16" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; Minuman(String, &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;, String)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; tampilkanInfo()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; terapkanDiskon(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-14">
+          <mxGeometry y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-17" value="DapatDisdiskon" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-18" value="&lt;span class=&quot;hljs-operator&quot;&gt;+&lt;/span&gt; terapkanDiskon(&lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.563;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xNL9x2fb8WNImuJIkfQr-17" target="xNL9x2fb8WNImuJIkfQr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.48;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xNL9x2fb8WNImuJIkfQr-17" target="xNL9x2fb8WNImuJIkfQr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-32" value="Restaurant " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276" y="640" width="210" height="180" as="geometry">
+            <mxRectangle x="300" y="640" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-33" value="&lt;div&gt;- menu: ArrayList&amp;lt;MenuItem&amp;gt;&lt;/div&gt;&lt;div&gt;- pesanan: ArrayList&amp;lt;MenuItem&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-32">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-34" value="&lt;div&gt;+ Restaurant()&lt;/div&gt;&lt;div&gt;+ tambahkanKeMenu(MenuItem)&lt;/div&gt;&lt;div&gt;+ tampilkanMenu()&lt;/div&gt;&lt;div&gt;+ tambahkanKePesanan(MenuItem)&lt;/div&gt;&lt;div&gt;+ hitungTotal(): double&lt;/div&gt;&lt;div&gt;+ terapkanDiskonKePesanan(double)&lt;/div&gt;&lt;div&gt;+ tampilkanPesanan()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xNL9x2fb8WNImuJIkfQr-32">
+          <mxGeometry y="70" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xNL9x2fb8WNImuJIkfQr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xNL9x2fb8WNImuJIkfQr-32" target="xNL9x2fb8WNImuJIkfQr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
